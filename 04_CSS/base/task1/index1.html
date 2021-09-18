@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+       div{
+           text-indent: 5px;
+           border: solid 1px;
+           border-radius: 0px 10px 0px 10px;
+           padding: 6px;
+       } 
+
+        div:nth-child(3){
+           margin-top: 3px;
+       }
+
+        div:nth-child(4){
+           margin-top: 3px;
+       }
+        
+        a[href^="https://ru"]{
+            background-image: url(extref.png);
+            background-repeat: no-repeat;
+            background-position: 0px 5px;
+            padding-left: 13px;
+       }
+
+       span:nth-child(2){
+          background-image: url(logo-doc.jpg);
+          background-repeat: no-repeat;
+          background-position: 140px 0px;
+          padding-right: 25px;
+       }
+
+       span:nth-child(3){
+          background-image: url(logo-pdf.png);
+          background-repeat: no-repeat;
+          background-position: 105px 0px;
+          padding-right: 25px;
+       }
+
+       span:nth-child(4){
+          background-image: url(logo-zip.gif);
+          background-repeat: no-repeat;
+          background-position: 45px 0px;
+          padding-right: 25px;
+     }
+
+        ul{
+            list-style-image: url(logo-list.jpg);
+       }
+
+        li:nth-child(1):hover{
+            background-image: url(logo-doc.jpg);
+            background-repeat: no-repeat;
+            background-position: 140px 1px;
+            padding-right: 140px;   
+       }
+
+       li:nth-child(2):hover{
+            background-image: url(logo-pdf.png);
+            background-repeat: no-repeat;
+            background-position: 107px 0px;
+            padding-right: 26px;   
+       }
+
+       li:nth-child(3):hover{
+        
+            background-image: url(logo-zip.gif);
+            background-repeat: no-repeat;
+            background-position: 50px 0px;
+            padding-right: 140px; 
+       }
+
+
+
+    
+
+    
+
+    </style>
+</head>
+<body>
+    <h1>Форматы файлов.</h1>
+     <div>
+     <span>.DOC или .doc (от англ. <a href="https://ru.wikipedia.org/wiki/.doc" target="blank"> document</a>) - расширение имени файла, используемое для файлов, представляющих текст, с разметкой или без. Расширение .DOC часто использовалось для обозначения простых текстовых файлов без форматирования, однако позже стало использоваться для двоичных форматов документов с разметкой. <br></span>
+     <span><a href="files/document.doc"> Документ MS Word </a></span>
+     </div>
+    <div>
+        <span>Portable Document Format(<a href="https://ru.wikipedia.org/wiki/Portable_Document_Format" target="blank"> PDF</a>) - межплатформенный формат электронных документов, разработанных фирмой Adobe System с использованием ряда возможностей языка PortScript. </span><br>
+        <span> <a href="files/document.pdf"> Документ PDF</a></span> 
+   </div>
+    <div>
+       <span>ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате обычно имеет расширение <a  href="https://ru.wikipedia.org/wiki/ZIP" target="blank">.zip</a>  и хранит в сжатом или несжатом виде один или несколько файлов, которые можно из него извлечь путем распаковки с помощью специальной программы. </span><span></span><br>
+       <span><a href="files/document.zip">Архив</a></span> 
+        
+    </div>
+
+    <h3>Это список из файлов</h3>
+    <ul>
+        <li><a href="files/document.doc">Документ MS Word</a></li>
+        <li><a href="files/document.pdf">Документ PDF</a></li>
+        <li><a href=files/document.zip>Архив</a></li>
+    </ul>
+
+    
+</body>
+</html>
