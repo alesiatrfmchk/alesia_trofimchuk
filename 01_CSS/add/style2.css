@@ -1,0 +1,32 @@
+body img{
+
+    float: right;
+    }
+    
+    p#styleP
+    
+    {
+    font-family: sans-serif;
+    font: size 14px; ;
+    background-color: #eee;
+    }
+    
+    table
+    {
+    width: 100%;
+    }
+    
+    td#styleY
+    {
+    text-align: left;
+    }
+    
+    td#styleZ
+    {
+    text-align: center;
+    }
+    
+    td#styleA
+    {
+    text-align: left;
+    }
